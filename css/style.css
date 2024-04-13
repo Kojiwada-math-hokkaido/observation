@@ -4,7 +4,8 @@ body {
 }
 
 .main {
-	position: absolute;
+	position: relative;
+  padding-top: 20pt;
 	background-color: rgb(39, 36, 36);
 }
 
@@ -16,6 +17,8 @@ body {
 
 .video-item {
 	text-align: center;
+  color: aliceblue;
+  text-shadow: 0 0 0.5cm red;
 }
 
 /* 文字サイズ調整 */
