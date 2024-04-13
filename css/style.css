@@ -35,10 +35,19 @@ body {
   margin: 0 auto;
 }
 
+.material-symbols-outlined {
+  position: fixed; /* ページ上の固定位置に配置 */
+  color: aliceblue;
+  bottom: 20px; /* 下からの距離 */
+  left: 50%; /* 左端からの位置 */
+  transform: translateX(-50%); /* 左右中央に移動 */
+  font-size: 24px; /* フォントサイズ */
+}
+
 /* 文字サイズ調整 */
 @media screen and (max-width: 500px) {
   .title {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .video-size {
     width: 300px; /* 任意の幅を設定 */
