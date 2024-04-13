@@ -19,11 +19,30 @@ body {
 	text-align: center;
   color: aliceblue;
   text-shadow: 0 0 0.5cm red;
+  padding-bottom: 150px;
+}
+
+/* video-size の幅と高さを設定 */
+.video-size {
+  width: 500px; /* 任意の幅を設定 */
+  height: 282px; /* 任意の高さを設定 */
+  margin: auto; /* 水平方向に中央揃え */
+}
+
+/* 動画の表示を中央揃え */
+.video-size iframe {
+  display: block;
+  margin: 0 auto;
 }
 
 /* 文字サイズ調整 */
 @media screen and (max-width: 500px) {
   .title {
     font-size: 4vw;
+  }
+  .video-size {
+    width: 300px; /* 任意の幅を設定 */
+    height: 169px; /* 任意の高さを設定 */
+    margin: auto; /* 水平方向に中央揃え */
   }
 }
