@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+	position: absolute;
+	background-color: antiquewhite;
+}
+
+.title {
+	text-align: center;
+}
+
+.video-item {
+	text-align: center;
+}
