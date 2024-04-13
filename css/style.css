@@ -5,11 +5,13 @@ body {
 
 .main {
 	position: absolute;
-	background-color: antiquewhite;
+	background-color: rgb(39, 36, 36);
 }
 
 .title {
 	text-align: center;
+  color: aliceblue;
+  text-shadow: 0 0 1cm red;
 }
 
 .video-item {
